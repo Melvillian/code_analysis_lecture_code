@@ -14,9 +14,9 @@
 
 `ganache-cli --determinstic --allowUnlimitedContractSize`
 
-4. Run the commands in the [Directions](#Directions) section
+## Directions For Fuzzing
 
-## Directions
+`pip3 install diligence-fuzzing`
 
 ```bash
 fuzz -c .fuzz.yml arm
